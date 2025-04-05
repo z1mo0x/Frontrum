@@ -11,7 +11,7 @@ export default function Hero() {
                     <div className={classes.hero__title}>FRONTROOM</div>
                     <div className={classes.hero__text}>Только у нас самые современные технологии и лучшие разработчики, которые будут рады помочь!</div>
                     <div className={classes.hero__button}>
-                        <NavLink to='/forum'>Перейти на форум</NavLink>
+                        <Button><NavLink to='/forum'>Перейти на форум</NavLink></Button>
                     </div>
                 </div>
             </div>

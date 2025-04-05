@@ -39,7 +39,8 @@
     color: white;
 }
 
-.hero__button Button {
+.hero__button NavLink {
     margin-top: 30px;
     font-size: 20px;
+    border-radius: ;
 }
