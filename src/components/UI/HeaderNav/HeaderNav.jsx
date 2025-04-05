@@ -1,19 +1,18 @@
 import classes from '../Header/Header.module.css'
-import { NavLink } from "react-router-dom";
 import HeaderNavItem from '../HeaderNavItem/HeaderNavItem';
 
 export default function HeaderNav() {
     const links = [
         {
-            title: '<NavLink>Форум</NavLink>',
+            title: 'Форум',
             link: '/forum'
         },
         {
-            title: '<NavLink>Блог</NavLink>',
+            title: 'Блог',
             link: '#'
         },
         {
-            title: '<NavLink>Новости</NavLink>',
+            title: 'Новости',
             link: '#'
         },
     ]
