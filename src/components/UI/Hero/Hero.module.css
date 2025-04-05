@@ -44,3 +44,8 @@
     font-size: 20px;
     background: #686868cc;
 }
+
+.hero__button Button a {
+    color: white;
+    text-decoration: none;
+}
