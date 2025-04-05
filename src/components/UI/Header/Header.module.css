@@ -10,12 +10,9 @@
 }
 
 .header__wrapper {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
     gap: 85px;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 10vh;
 }
 
