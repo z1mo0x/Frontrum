@@ -1,0 +1,45 @@
+.hero {
+    background: url('../../../assets/pics/code-back.jpg') center / cover;
+    position: relative;
+    height: 90vh;
+}
+
+.hero__background {
+    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, .1);
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.hero__wrapper {
+    padding: 125px 0;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+}
+
+.hero__title {
+    text-align: center;
+    font-size: 75px;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.hero__text {
+    margin-top: 20px;
+    font-size: 32px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.hero__button Button {
+    margin-top: 30px;
+    font-size: 20px;
+}
